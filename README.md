@@ -1,5 +1,3 @@
-Your README content looks clear and informative! Here are a few suggestions to refine and polish it further:
-
 ---
 
 # Wordly Auto Solver Chrome Extension
