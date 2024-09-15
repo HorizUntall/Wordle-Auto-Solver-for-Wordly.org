@@ -9,7 +9,11 @@ This Chrome extension auto-solves Wordle problems (5-letter words) specifically 
 
 This is a side project that I’ve been working on for the past 2 days (as of September 15).
 
+## Usage Recommendation
+For the best results, it is recommended to use this extension starting from the first attempt. The solver follows specific steps and does not record or adapt to words manually inputted by the user
+
 ## Limitations
+- **Program Completion**: This extension is still WIP. However, it can pretty much do its job.
 - **Word List Dependency**: This solver relies on a predefined list of words. If the word problem does not exist in the list, the solver may not be able to solve it. However, it has successfully solved most problems encountered.
 - **Word Length**: Currently, this solver only handles 5-letter word problems.
 - **Word Lists**: The extension includes both 2000-word and 5000-word lists. By default, it uses the 2000-word list to maximize speed.
