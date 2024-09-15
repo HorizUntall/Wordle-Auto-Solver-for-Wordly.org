@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Wordle Solver",
+  "version": "1.0",
+  "description": "A Chrome extension to solve Wordle puzzles",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Wordle Solver"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["5_letter_words.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
+

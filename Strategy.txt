@@ -1,0 +1,28 @@
+Strategy:
+
+Pre-requisites: 
+* Identify how many letters for the problem
+* Get a word list that has n letters (Focus on 5)
+
+1. Input a random strategic word (must have non-repeating letters)
+	* Then see which (letter) is correct and in the right position (correct letters) and which is correct and not in the right position (misplaced letters)
+	* Filter in the entire list of words that has the correct letters in a specific position and contains the misplaced letters
+	* Identify the letters that are both incorrect and not in the right direction (incorrect letters)
+	* Filter out the entire list of words that have the incorrect letters
+	* Filter out the entire list of words that has the misplaced letters in the wrong direction
+
+	note: for each letter in the input, their positions must be recorded
+
+	Potential problem: Correct answer is not in the list
+
+	Current way of filtering: Going through all the list, checking by the conditions; (I think it's O(n), which could be inefficient)
+
+2. If all letters are incorrect, do the step one
+
+3. If after all the filtering,  one word is left in the list, then choose that.
+
+4. If after all the filtering, 2 words are left in the list, then choose which one is more popular (if the words are sequenced/sorted in terms of popularity). Then if wrong, choose the other one.
+
+5. If after all the filtering, there are more than 2 words left in the list, do step one
+
+6. After all the filters, then there is no word left, then say that the program couldn't solve it
