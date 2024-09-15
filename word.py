@@ -1,6 +1,6 @@
 """
 
-Run this script when updating the words.txt. Do not update the json file directly (IDK Why lol).
+Run this script when updating the words.txt. Do not update the json file directly (I mean you could, but just listen to me lol).
 
 """
 
