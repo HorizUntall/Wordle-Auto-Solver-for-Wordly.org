@@ -32,7 +32,7 @@ For the best results, it is recommended to use this extension starting from the 
    ```
    to:
    ```python
-   with open(f'{letters}_letter_words_long.txt') as file:
+   with open(f'{letters}_letter_words_more.txt') as file:
    ```
 2. Run the Python script.
 
