@@ -41,6 +41,7 @@ This is a side project that I’ve been working on for the past 2 days (as of Se
 ## Notes
 - Ensure that the extension is used exclusively on Wordly to avoid issues.
 - If you encounter any problems or need further assistance, please refer to the issues section of this repository.
+- This is my first ever project for the sake of hobby. I am not really proficient at programming. So, please don't go hard on me, though I take criticisms. Thanks for using my program!
 
 ---
 
