@@ -44,4 +44,3 @@ This is a side project that I’ve been working on for the past 2 days (as of Se
 
 ---
 
-Feel free to adjust any sections according to your needs or preferences! This README should provide users with a clear understanding of the extension's purpose, installation process, and optional configurations.
